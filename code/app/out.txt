@@ -1,5 +1,0 @@
-def loop_directories():
-for subdir, dirs, files in os.walk(INPUT_DIRECTORY):
-for file in files:
-if бе.png' in file or бе.jpg' in file:
-convert(os.path. join(subdir, file), file)

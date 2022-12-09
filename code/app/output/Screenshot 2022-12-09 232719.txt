@@ -1,0 +1,5 @@
+﹁def loop﹍directories(﹚﹕
+for subdir， dirs， files in os﹒walk(INPUT﹍DTRECTORY﹚﹕
+for file in files﹕
+if (﹒png﹁ in file or ﹁﹒jpg﹁ in file﹕
+convert(os﹒path﹒join(subdir， file﹚， file﹚
